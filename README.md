@@ -26,7 +26,7 @@ docker build    --build-arg   JAR_FILE=target/devops-01-1.0.1.jar      --tag flo
 ```
 docker build    --build-arg   JAR_FILE=target/devops-01-1.0.1.jar      --tag floryos/devops-01:latest   .
 ```
-
+docker build -t floryos/devops-application:latest   .
 
 ```
 docker build    --build-arg   JAR_FILE=target/devops-01-1.0.2.jar      --tag floryos/devops-01:v002   .
